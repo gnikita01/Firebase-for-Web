@@ -17,12 +17,14 @@ This project proposes a “Website for brining unified results scrapping multipl
 ![image](https://user-images.githubusercontent.com/18289261/168243857-fc5085d2-2ba7-4d58-848c-46852fbd5426.png)
 
 Angular application File / Folder Architecture summary:
-package.json: consists of Node/NPM library/package/module dependencies for application development
-node_modues - folder consists of all installed packages
-src/main.ts - entry point to angular application. src/index.html
-app/app.module.ts - route module of application
-app/app.component.ts - route component of application
-ng serve / npm start -> main.ts (index.html) -> app.module.ts -> app.component.ts -> (app.component.html + css)
+
+1. `package.json`: consists of Node/NPM library/package/module dependencies for application development
+2. `node_modues` - folder consists of all installed packages
+3. `src/main.ts` - entry point to angular application. src/index.html
+4. `app/app.module.ts` - route module of application
+5. `app/app.component.ts` - route component of application
+6. `ng serve / npm start` -> main.ts (index.html) -> app.module.ts -> app.component.ts -> (app.component.html + css)
+
 
 Functionality & Concepts used :
 
